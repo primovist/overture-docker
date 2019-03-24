@@ -9,5 +9,5 @@ RUN cd /root && \
     unzip overture.zip && \
     chmod +x overture-linux-amd64 && \
     mv overture-linux-amd64 /usr/bin/overture && \
-    rm -rf ./* && \
-CMD /usr/bin/overture -c /etc/overture/config.json
+    rm -rf ./*
+CMD overture -c /etc/overture/config.json
