@@ -10,4 +10,4 @@ RUN cd /root && \
     chmod +x overture-linux-amd64 && \
     mv overture-linux-amd64 /usr/bin/overture && \
     rm -rf ./* && \
-CMD overture -c /etc/overture/config.json
+CMD /usr/bin/overture -c /etc/overture/config.json
